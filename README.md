@@ -1,6 +1,6 @@
 # Opioid-Overprescribing
 
-Capstone project for the online Python Data Science and Machine Learning course by CodingNomads.
+Capstone project for the online [Python Data Science and Machine Learning course](https://codingnomads.co/courses/data-science-machine-learning-course?portfolioCats=3) by CodingNomads.
 
 ## Background
 
