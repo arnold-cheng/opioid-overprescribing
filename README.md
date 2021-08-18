@@ -20,7 +20,7 @@ The main question we want to answer is:
 
 We use 2 datasets, both large, from the Medicare Part D [website](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/PartD2015). Medicare Part D is the part of Medicare that covers prescription drugs ("D" for drugs). The data we chose to use is from 2015, and they are ""Medicare Provider Utilization and Payment Data: 2015 Part D Prescriber" and "Medicare Provider Utilization and Payment Data: Part D Prescriber Summary Table CY2015". 
 
-I create a subset of the data focusing on the specific specialty "family practice" due to limited computing power and time. The code is located in a separate Jupyter notebook. You can download just the "family practice.csv" dataset to use for analysis if computing is also an issue (these are large datasets).
+I create a subset of the data focusing on the specific specialty "family practice" due to limited computing power and time. The code is located in a separate Jupyter notebook ("specialty_exporter.ipynb"). You can download just the "family practice.csv" dataset to use for analysis if computing is also an issue (these are large datasets).
 
 ## Solution
 
