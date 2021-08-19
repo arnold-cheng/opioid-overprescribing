@@ -1,6 +1,12 @@
 # Opioid-Overprescribing
 
-Capstone project for the online [Python Data Science and Machine Learning course](https://codingnomads.co/courses/data-science-machine-learning-course?portfolioCats=3) by CodingNomads.
+This is the capstone project for the online [Python Data Science and Machine Learning course](https://codingnomads.co/courses/data-science-machine-learning-course?portfolioCats=3) by CodingNomads. In this project, I try to create a model that can predict if a doctor is overprescribing opioids and explore any natural clusters in the data.
+
+## Getting Started
+
+1. Install Jupyter, Python, and necessary libaries (see Requirements section)
+2. Download datasets from Medicare website (see Dataset section)
+3. Run specialties_exporter notebook to get subset of data (unless you are capable of running the entire dataset)
 
 ## Background
 
@@ -18,7 +24,7 @@ The main question we want to answer is:
 
 ## Dataset
 
-We use 2 datasets, both large, from the Medicare Part D [website](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/PartD2015). Medicare Part D is the part of Medicare that covers prescription drugs ("D" for drugs). The data we chose to use is from 2015, and they are ""Medicare Provider Utilization and Payment Data: 2015 Part D Prescriber" and "Medicare Provider Utilization and Payment Data: Part D Prescriber Summary Table CY2015". 
+We use 2 datasets, both large, from the Medicare Part D [website](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/PartD2015). Medicare Part D is the part of Medicare that covers prescription drugs ("D" for drugs). The data we chose to use is from 2015, and they are "Medicare Provider Utilization and Payment Data: 2015 Part D Prescriber" and "Medicare Provider Utilization and Payment Data: Part D Prescriber Summary Table CY2015". 
 
 I create a subset of the data focusing on the specific specialty "family practice" due to limited computing power and time. The code is located in a separate Jupyter notebook ("specialty_exporter.ipynb"). Unfortunately due to the large size (even the subset is too large to upload), you will have to download directly from the Medicare website and use the specialty_exporter file to export the "family practice" subset, but feel free to use any specialty that interests you!
 
@@ -53,6 +59,6 @@ I haven't seen any other studies or projects that have done this previously in t
 
 ## Requirements
 * Python 3.9
-* Python libraries (numpy, pandas, matplotlib.pyplot, scipy, seaborn, sklearn)
+* requirements.txt (contains Python libraries: numpy, pandas, matplotlib.pyplot, scipy, seaborn, sklearn)
 * Jupyter Notebook
 * plotting.py
